@@ -6,6 +6,9 @@ gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.12.4'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'bcrypt'
+gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '1.3.11'
@@ -15,6 +18,8 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner'
 end
 
 # Use SCSS for stylesheets
